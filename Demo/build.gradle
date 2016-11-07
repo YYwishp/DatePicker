@@ -1,13 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.2"
+
+    compileSdkVersion 24
+    buildToolsVersion "25.0.0"
 
     defaultConfig {
         applicationId "cn.aigestudio.datepicker.demo"
         minSdkVersion 11
-        targetSdkVersion 21
+        targetSdkVersion 24
         versionCode 4
         versionName "2.0.0"
     }
